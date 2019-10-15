@@ -20,11 +20,11 @@ public class SeaCreature {
 	}
 
 	public String getName() {
-		return "My name is " + name;
+		return "My name is " + name + ".";
 	}
 
 	public void eat() {
-		System.out.println(name + " is eating krabby patties");
+		System.out.println(name + " is eating krabby patties" + ".");
 	}
 
 	public void laugh() {
